@@ -1,4 +1,3 @@
-rootProject.name = "BasicComputerGames"
 include(":build_00_utilities")
 
 include("build_03_Animal_kotlin")
@@ -12,7 +11,7 @@ include("build_89_Tic-Tac-Toe_kotlin")
 include("build_94_War_kotlin")
 
 include("build_01_Acey_Ducey_java")
-include("build_01_Acey_Ducey_java17")
+//include("build_01_Acey_Ducey_java17")
 include("build_02_Amazing_java")
 include("build_03_Animal_java")
 include("build_04_Awari_java")
@@ -21,6 +20,7 @@ include("build_06_Banner_java")
 include("build_07_Basketball_java")
 include("build_08_Batnum_java")
 include("build_09_Battle_java")
+include("build_10_Blackjack")
 include("build_11_Bombardment_java")
 include("build_12_Bombs_Away_java")
 include("build_13_Bounce_java")
