@@ -43,6 +43,7 @@ subprojects {
                 path = relativePath.segments.last().replace("^build_".toRegex(), "")
             }
         }
+        includeEmptyDirs = false
     }
     task<Copy>("copyLib") {
         from("${projectDir}/build/install/${projectDir.name}/lib")
@@ -52,6 +53,7 @@ subprojects {
             path = relativePath.segments.last()
         }
         duplicatesStrategy = DuplicatesStrategy.INCLUDE
+        includeEmptyDirs = false
     }
     task("commonDistribution") {
         dependsOn("copyBin","copyLib")
