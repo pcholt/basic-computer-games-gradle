@@ -1,5 +1,5 @@
 # basic-computer-games-gradle
-Buildscript for the jvm games in @coding-horror/basic-computer-games
+Buildscript for the jvm games in https://github.com/coding-horror/basic-computer-games.git
 
 ## tl;dr
 Run these commands on the command line
